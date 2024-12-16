@@ -2,9 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+html,body {
+  height: 100vh;
+}
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto'
+  font-family: "Roboto";
+  background-color: #302e2b;
+}
+
+#root{
+  height: 100%;
+}
+
+.black {
+  background-color: #739552;
+}
+.white {
+  background-color: #EBECD0;
 }

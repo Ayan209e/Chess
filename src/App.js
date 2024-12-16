@@ -1,8 +1,9 @@
+import { EmptyBoard } from "./components";
 
 function App() {
   return (
-    <div className="">
-      Chess
+    <div className="flex justify-center items-center h-full">
+      <EmptyBoard />
     </div>
   );
 }
