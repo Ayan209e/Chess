@@ -1,9 +1,10 @@
-import { EmptyBoard } from "./components";
+import { Board } from "./components";
+import { getInitialPieces } from "./utils";
 
 function App() {
   return (
     <div className="flex justify-center items-center h-full">
-      <EmptyBoard />
+      <Board pieces={getInitialPieces()} />
     </div>
   );
 }
